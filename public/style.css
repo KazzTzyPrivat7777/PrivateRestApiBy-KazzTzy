@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    scroll-behavior: auto;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    position: relative;
+    background: #0a0a0a;
+    color: #e4e4e7;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.bg-bg-main { background: #0a0a0a; }
+.bg-card-bg { background: #1a1a1a; }
+.border-border-dark { border-color: #2a2a2a; }
+.text-primary { color: #8b5cf6; }
+.bg-primary { background: #8b5cf6; }
+.border-primary { border-color: #8b5cf6; }
+.text-sky-blue { color: #38bdf8; }
+.bg-sky-blue { background: #38bdf8; }
+.text-success { color: #10b981; }
+.bg-success { background: #10b981; }
+.text-warning { color: #f59e0b; }
+.bg-warning { background: #f59e0b; }
+.text-error { color: #ef4444; }
+.bg-error { background: #ef4444; }
+.text-secondary { color: #f97316; }
+.bg-secondary { background: #f97316; }
+
+.max-w-6xl { max-width: 72rem; }
+
+code, pre, .break-all {
+    word-break: break-all;
+    white-space: pre-wrap;
+}
+
+.json-key { color: #8b5cf6; font-weight: bold; }
+.json-string { color: #10b981; }
+.json-number { color: #f59e0b; font-weight: bold; }
+.json-boolean { color: #ef4444; font-weight: bold; }
+.json-null { color: #94a3b8; font-style: italic; }
+
+.rotate-45 { transform: rotate(45deg); }
+.rotate-180 { transform: rotate(180deg); }
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8b5cf6;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7c3aed;
+}
+
+::selection {
+    background: rgba(139, 92, 246, 0.3);
+    color: #ffffff;
+}
