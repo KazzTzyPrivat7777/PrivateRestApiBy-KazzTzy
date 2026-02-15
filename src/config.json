@@ -1,0 +1,5586 @@
+{
+  "settings": {
+    "creator": "KayzzAoshi",
+    "apiName": "AoshiOfficial",
+    "description": "A free and reliable API service designed for modern application development. Built with Node.js and TypeScript, delivering fast performance, stable endpoints, and easy integration.",
+    "apiVersion": "v1.0",
+    "visitors": 0,
+    "favicon": "/src/KayzzAoshi.jpg",
+    "thumbnail": "/src/thumbnail.jpg",
+    "channelUrl": "https://whatsapp.com/channel/0029VbCEBa77j6g2KN3NYB3A",
+    "github": "https://github.com/KayzzAoshi"
+  },
+  "tags": {
+    "ai": [
+      {
+        "name": "Aoshi Chat",
+        "endpoint": "/api/ai/Aoshi",
+        "filename": "Aoshi",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "session",
+            "required": false
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      { 
+  "name": "Claude Chat",
+  "endpoint": "/api/ai/claude",
+  "filename": "claude",
+  "method": "GET",
+  "params": [
+    {
+      "name": "text",
+      "required": true,
+      "description": "Pertanyaan atau teks yang ingin dikirim ke Claude AI"
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"}
+      ]
+      },
+      {
+    "name": "Dyron AI Chat",
+    "endpoint": "/api/ai/dyronai",
+    "filename": "dyronai",
+    "method": "GET",
+    "params": [
+      {
+        "name": "q",
+        "required": true,
+        "description": "Pertanyaan atau pesan untuk Dyron AI"
+      },
+      {
+        "name": "apikey",
+        "required": true,
+        "description": "API Key untuk autentikasi"
+      }
+    ]
+  },
+  {
+    "name": "BibleAI Search",
+    "endpoint": "/api/ai/bibleai",
+    "filename": "bibleai",
+    "method": "GET",
+    "params": [
+      {
+        "name": "q",
+        "required": true,
+        "description": "Pertanyaan untuk BibleAI"
+      },
+      {
+        "name": "apikey",
+        "required": true,
+        "description": "API Key untuk autentikasi"
+     }
+     ]
+     },
+     {
+    "name": "ZeroGPT AI Detection",
+    "endpoint": "/api/ai/zerogpt",
+    "filename": "zerogpt",
+    "method": "GET",
+    "params": [
+      {
+        "name": "text",
+        "required": true,
+        "description": "Teks yang akan dideteksi sebagai manusia atau AI"
+      },
+      {
+        "name": "apikey",
+        "required": true,
+        "description": "API Key untuk autentikasi"
+      }
+    ]
+  },
+  {
+    "name": "BypassAI Writecream",
+    "endpoint": "/api/ai/bypassai",
+    "filename": "bypassai",
+    "method": "GET",
+    "params": [
+      {
+        "name": "text",
+        "required": true,
+        "description": "Teks yang akan di-bypass AI detection"
+      },
+      {
+        "name": "apikey",
+        "required": true,
+        "description": "API Key untuk autentikasi"
+      }
+    ]
+  },
+  {
+    "name": "Image To Prompt AI",
+    "endpoint": "/api/ai/imgtoprompt",
+    "filename": "imgtoprompt",
+    "method": "GET",
+    "params": [
+      {
+        "name": "url",
+        "required": true,
+        "description": "URL gambar yang ingin diubah menjadi prompt"
+      },
+      {
+        "name": "apikey",
+        "required": true,
+        "description": "API Key untuk autentikasi"
+    }
+    ]
+    },
+    {
+    "name": "TalkAI",
+    "endpoint": "/api/ai/talkai",
+    "filename": "talkai",
+    "method": "GET",
+    "params": [
+      { "name": "q", "required": true },
+      { "name": "apikey", "required": true, "description": "API Key untuk autentikasi" }
+    ]
+  },
+  {
+  "name": "iAskGPT AI Chat",
+  "endpoint": "/api/ai/iask",
+  "filename": "iask",
+  "method": "GET",
+  "params": [
+    {
+      "name": "q",
+      "required": true,
+      "description": "Pertanyaan atau pesan yang akan dikirim ke iAskGPT"
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"
+   }
+   ]
+   },
+   {
+    "name": "DolphinAI",
+    "endpoint": "/api/ai/DolphinAI",
+    "filename": "Dolphinai",
+    "method": "GET",
+    "params": [
+      { "name": "q", "required": true },
+      { "name": "template", "required": false },
+      { "name": "apikey", "required": true, "description": "API Key untuk autentikasi" }
+    ]
+  },
+  {
+        "name": "Muslim AI",
+        "endpoint": "/api/ai/muslimai",
+        "filename": "muslimai",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true,
+            "description": "Pertanyaan mengenai Islam atau Al-Quran"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {        
+        "name": "Copilot AI",
+        "endpoint": "/api/ai/copilot",
+        "filename": "Copilot",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "session",
+            "required": false
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+            "name": "SoyMascol",
+        "endpoint": "/api/ai/soymascol",
+        "filename": "soymascol",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "session",
+            "required": false
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"}
+            ]
+            },
+            {
+        "name": "Kimi AI",
+        "endpoint": "/api/ai/kimi",
+        "filename": "kimi",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "session",
+            "required": false
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Website Generator",
+        "endpoint": "/api/ai/genweb",
+        "filename": "genweb",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Text To Image AI",
+        "endpoint": "/api/ai/text2img",
+        "filename": "text2img",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Flux Image",
+        "endpoint": "/api/ai/fluximg",
+        "filename": "fluximg",
+        "method": "GET",
+        "params": [
+          {
+            "name": "prompt",
+            "required": true,
+            "description": "Deskripsi gambar yang ingin dibuat"
+          },
+          {
+            "name": "seed",
+            "required": false,
+            "description": "Angka acak untuk variasi hasil gambar"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "ChatHub AI",
+        "endpoint": "/api/ai/chathub",
+        "filename": "chathub",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Venice AI Chat",
+        "endpoint": "/api/ai/venice",
+        "filename": "venice",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Scite AI Research",
+        "endpoint": "/api/ai/scite",
+        "filename": "scite",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {    
+        "name": "GPT",
+        "endpoint": "/api/ai/gpt",
+        "filename": "gpt",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true,
+            "description": "Pertanyaan untuk GPT"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Gita AI",
+        "endpoint": "/api/ai/gita",
+        "filename": "gita",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true,
+            "description": "Pertanyaan yang ingin diajukan ke Gita AI"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {               
+        "name": "NanoBanana AI",
+        "endpoint": "/api/ai/nanobanana",
+        "filename": "nanobanana",
+        "method": "GET",
+        "params": [
+          {
+            "name": "imageUrl",
+            "required": true,
+            "description": "URL gambar input"
+          },
+          {
+            "name": "prompt",
+            "required": true,
+            "description": "Prompt edit AI"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "SeaArt AI Chat",
+        "endpoint": "/api/ai/seaart",
+        "filename": "seaart",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "text",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Notegpt",
+        "endpoint": "/api/ai/notegpt",
+        "filename": "notegpt",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {          
+        "name": "turboseek",
+        "endpoint": "/api/ai/turboseek",
+        "filename": "turboseek",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {      
+        "name": "DeepSeek AI",
+        "endpoint": "/api/ai/deepseek",
+        "filename": "deepseek",
+        "method": "GET",
+        "description": "AI DeepSeek, fokus ke jawaban teknis, logika, dan pemrograman. Cocok buat coding & analisis.",
+        "params": [
+          {
+            "name": "q",
+            "required": true,
+            "description": "Pertanyaan atau pesan yang dikirim ke DeepSeek AI"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Text2Pet AI - Image",
+        "endpoint": "/api/ai/petimg",
+        "filename": "petimg",
+        "method": "GET",
+        "params": [
+          {
+            "name": "prompt",
+            "required": true,
+            "description": "Prompt untuk generate image, contoh: 'a cute cat anime'"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "DeepAI Chat",
+        "endpoint": "/api/ai/deepai",
+        "filename": "deepai",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "PublicAI",
+        "endpoint": "/api/ai/publicai",
+        "filename": "Publicai",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {     
+        "name": "Gemini",
+        "endpoint": "/api/ai/gemini",
+        "filename": "gemini",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "session",
+            "required": false
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      }
+    ],
+    "maker": [
+      {
+        "name": "Brat Generator",
+        "endpoint": "/api/maker/brat",
+        "filename": "brat",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+  "name": "Brat Nezuko Generator",
+  "endpoint": "/api/maker/bratnezuko",
+  "filename": "bratnezuko",
+  "method": "GET",
+  "params": [
+    {
+      "name": "text",
+      "required": true
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"
+    }
+  ]
+},
+{
+  "name": "Brat Menhera Generator",
+  "endpoint": "/api/maker/bratmenhera",
+  "filename": "bratmenhera",
+  "method": "GET",
+  "params": [
+    {
+      "name": "text",
+      "required": true
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"
+    }
+  ]
+},
+{
+  "name": "Yoratama Generator",
+  "endpoint": "/api/maker/yoratama",
+  "filename": "yoratama",
+  "method": "GET",
+  "params": [
+    {
+      "name": "text",
+      "required": true
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"
+    }
+  ]
+},
+{
+  "name": "Bree Generator",
+  "endpoint": "/api/maker/bree",
+  "filename": "bree",
+  "method": "GET",
+  "params": [
+    {
+      "name": "text",
+      "required": true,
+      "description": "Format: teks1 | teks2"
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"
+    }
+    ]
+    },
+    {
+  "name": "Boarding Pass Artemis",
+  "endpoint": "/api/maker/artemis",
+  "filename": "artemis",
+  "method": "GET",
+  "params": [
+    {
+      "name": "text",
+      "required": true
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"
+    }
+  ]
+},
+{
+  "name": "Quote Sticker",
+  "endpoint": "/api/maker/qc",
+  "filename": "qc",
+  "method": "GET",
+  "params": [
+    {
+      "name": "text",
+      "required": true,
+      "description": "Teks yang ingin dijadikan quote"
+    },
+    {
+      "name": "name",
+      "required": false,
+      "description": "Nama pengirim quote"
+    },
+    {
+      "name": "photo",
+      "required": false,
+      "description": "URL foto profil untuk avatar"
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"}
+      ]
+      },
+      {
+  "name": "Pornhub Logo",
+  "endpoint": "/api/maker/pornhub",
+  "filename": "pornhub",
+  "method": "GET",
+  "params": [
+    {
+      "name": "text1",
+      "required": true
+    },
+    {
+      "name": "text2",
+      "required": true
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"}
+      ]
+      },
+      {
+        "name": "Carbon / CodeSnap Generator",
+        "endpoint": "/api/maker/carbon",
+        "filename": "codesnap",
+        "method": "GET",
+        "params": [
+          {
+            "name": "code",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Roblox Profile Generator",
+        "endpoint": "/api/maker/roblox",
+        "filename": "roblox",
+        "method": "GET",
+        "params": [
+          {
+            "name": "username",
+            "required": true,
+            "description": "Username Roblox yang ingin dicari"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Blur Image",
+        "endpoint": "/api/maker/blur",
+        "filename": "blur",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar yang akan diproses dengan efek blur otomatis"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "SpongeBob Brat Meme",
+        "endpoint": "/api/maker/spongebob",
+        "filename": "spongebob",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "ML Winner Certificate",
+        "endpoint": "/api/maker/juaraml",
+        "filename": "juaraml",
+        "method": "GET",
+        "params": [
+          {
+            "name": "name",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Qris IMG",
+        "endpoint": "/api/maker/qrisimg",
+        "filename": "qrisimg",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+          ]
+          },
+          {
+              "name": "Ephoto",
+        "endpoint": "/api/maker/ephoto",
+        "filename": "ephoto",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"}
+            ]
+            },
+            {
+                 "name": "Ephoto2",
+        "endpoint": "/api/maker/ephoto2",
+        "filename": "ephoto2",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Sertepikat Basket",
+        "endpoint": "/api/maker/basket",
+        "filename": "basket",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Mvp Player",
+        "endpoint": "/api/maker/mvp",
+        "filename": "mvp",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "eKTP Generator",
+        "endpoint": "/api/maker/ektp",
+        "filename": "ektp",
+        "method": "GET",
+        "params": [
+          {
+            "name": "provinsi",
+            "required": true,
+            "description": "Nama provinsi"
+          },
+          {
+            "name": "kota",
+            "required": true,
+            "description": "Nama kota / kabupaten"
+          },
+          {
+            "name": "nik",
+            "required": true,
+            "description": "NIK 16 digit"
+          },
+          {
+            "name": "nama",
+            "required": true,
+            "description": "Nama lengkap"
+          },
+          {
+            "name": "ttl",
+            "required": true,
+            "description": "Jakarta, 01-02-1979"
+          },
+          {
+            "name": "jenis_kelamin",
+            "required": true,
+            "description": "Laki-Laki"
+          },
+          {
+            "name": "golongan_darah",
+            "required": true,
+            "description": "A, B, AB, O, atau -"
+          },
+          {
+            "name": "alamat",
+            "required": true,
+            "description": "JL. Lembang Baru"
+          },
+          {
+            "name": "rtrw",
+            "required": true,
+            "description": "022/023"
+          },
+          {
+            "name": "keldesa",
+            "required": true,
+            "description": "Sudimatra Barat"
+          },
+          {
+            "name": "kecamatan",
+            "required": true,
+            "description": "CILedug"
+          },
+          {
+            "name": "agama",
+            "required": true,
+            "description": "Agama"
+          },
+          {
+            "name": "status",
+            "required": true,
+            "description": "Kawin"
+          },
+          {
+            "name": "pekerjaan",
+            "required": true,
+            "description": "Wirasista"
+          },
+          {
+            "name": "kewarganegaraan",
+            "required": true,
+            "description": "WNI / WNA"
+          },
+          {
+            "name": "masa_berlaku",
+            "required": true,
+            "description": "Seumur Hidup"
+          },
+          {
+            "name": "terbuat",
+            "required": true,
+            "description": "Tanggal pembuatan"
+          },
+          {
+            "name": "pas_photo",
+            "required": true,
+            "description": "Url Foto Lu https://c.termai. Contoh"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Beautiful Image",
+        "endpoint": "/api/maker/beautiful",
+        "filename": "beautiful",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar yang akan dimasukkan ke template Beautiful"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Facepalm",
+        "endpoint": "/api/maker/facepalm",
+        "filename": "facepalm",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "FakeDev 2",
+        "description": "Membuat foto profil melingkar dengan teks melengkung di bawah menggunakan font Nunito.",
+        "endpoint": "/api/maker/fakedev2",
+        "filename": "fakedev2",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Link gambar/foto user"
+          },
+          {
+            "name": "text",
+            "required": true,
+            "description": "Nama yang akan ditampilkan"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Darkness",
+        "endpoint": "/api/maker/darkness",
+        "filename": "darkness",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar"
+          },
+          {
+            "name": "amount",
+            "required": false,
+            "description": "Tingkat kegelapan (0 - 255, default: 50)"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Circle",
+        "endpoint": "/api/maker/circle",
+        "filename": "circle",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Brat Video",
+        "endpoint": "/api/maker/bratvid",
+        "filename": "bratvid",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Teks untuk generate Brat GIF"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Fake NGL",
+        "endpoint": "/api/maker/fakengl",
+        "filename": "fakengl",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Teks yang ingin dijadikan Fake NGL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "ToBugil",
+        "endpoint": "/api/maker/tobugil",
+        "filename": "tobugil",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Brat Patrick",
+        "endpoint": "/api/maker/bratpatrick",
+        "filename": "bratpatrick",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Teks untuk generate BRAT patrick"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Brat Squidward",
+        "endpoint": "/api/maker/bratsquidward",
+        "filename": "bratsquidward",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Teks untuk generate BRAT Squidward"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Brat BAHLIL",
+        "endpoint": "/api/maker/bratbahlil",
+        "filename": "bratbahlil",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Teks untuk generate BRAT patrick"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Brat Cewek Generator",
+        "description": "Membuat gambar 'cewekbrat' dari teks yang dikirim.",
+        "endpoint": "/api/maker/bratcewe",
+        "filename": "bratcewe",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Teks yang akan dirender ke gambar cewekbrat."
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Fake Tweet Generator",
+        "description": "Membuat gambar tweet palsu (versi 1) dengan nama, username, komentar, avatar, dan status verified.",
+        "endpoint": "/api/maker/faketweet",
+        "filename": "faketweet",
+        "method": "GET",
+        "params": [
+          {
+            "name": "name",
+            "required": true,
+            "description": "Nama tampilan di tweet."
+          },
+          {
+            "name": "username",
+            "required": true,
+            "description": "Username Twitter (tanpa @)."
+          },
+          {
+            "name": "comment",
+            "required": true,
+            "description": "Isi tweet/komentar."
+          },
+          {
+            "name": "avatar",
+            "required": true,
+            "description": "URL foto profil (avatar)."
+          },
+          {
+            "name": "verified",
+            "required": false,
+            "description": "Status centang biru. Gunakan true/false. Default: false."
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Fake Tweet Generator v2",
+        "description": "Membuat gambar tweet palsu versi 2 dengan statistik (retweets/quotes/likes), tema (light/dark), client, dan opsi image.",
+        "endpoint": "/api/maker/faketweet2",
+        "filename": "faketweet2",
+        "method": "GET",
+        "params": [
+          {
+            "name": "profile",
+            "required": true,
+            "description": "URL foto profil akun."
+          },
+          {
+            "name": "name",
+            "required": true,
+            "description": "Nama tampilan di tweet."
+          },
+          {
+            "name": "username",
+            "required": true,
+            "description": "Username Twitter (tanpa @)."
+          },
+          {
+            "name": "tweet",
+            "required": true,
+            "description": "Isi tweet."
+          },
+          {
+            "name": "image",
+            "required": false,
+            "description": "URL gambar tweet. Isi 'null' jika tidak ada. Default: null."
+          },
+          {
+            "name": "theme",
+            "required": false,
+            "description": "Tema tweet: light/dark. Default: light."
+          },
+          {
+            "name": "retweets",
+            "required": false,
+            "description": "Jumlah retweet. Default: 0."
+          },
+          {
+            "name": "quotes",
+            "required": false,
+            "description": "Jumlah quote. Default: 0."
+          },
+          {
+            "name": "likes",
+            "required": false,
+            "description": "Jumlah like. Default: 0."
+          },
+          {
+            "name": "client",
+            "required": false,
+            "description": "Sumber client (contoh: Twitter for iPhone). Default: Twitter."
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Fake XNXX Generator",
+        "description": "Membuat gambar halaman komentar/quote palsu bergaya XNXX (template fake-xnxx) dengan nama, quote, dan statistik like/dislike.",
+        "endpoint": "/api/maker/fake-xnxx",
+        "filename": "fake-xnxx",
+        "method": "GET",
+        "params": [
+          {
+            "name": "name",
+            "required": true,
+            "description": "Nama yang ditampilkan."
+          },
+          {
+            "name": "quote",
+            "required": true,
+            "description": "Teks/quote yang ditampilkan."
+          },
+          {
+            "name": "likes",
+            "required": false,
+            "description": "Jumlah like. Default: 0."
+          },
+          {
+            "name": "dislikes",
+            "required": false,
+            "description": "Jumlah dislike. Default: 0."
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Music Card",
+        "endpoint": "/api/maker/musiccard",
+        "filename": "musiccard",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar cover"
+          },
+          {
+            "name": "judul",
+            "required": true,
+            "description": "Judul lagu"
+          },
+          {
+            "name": "nama",
+            "required": true,
+            "description": "Nama artis"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Sertipikat Tholol",
+        "endpoint": "/api/maker/sertipikat",
+        "filename": "sertipikat",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Teks / nama yang ditampilkan di sertipikat"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "IQC3",
+        "endpoint": "/api/maker/iqc3",
+        "filename": "iqc3",
+        "method": "GET",
+        "description": "Membuat gambar chat WhatsApp (IQC) dengan teks, waktu chat, dan status bar.",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Teks chat yang ditampilkan"
+          },
+          {
+            "name": "chatTime",
+            "required": true,
+            "description": "Waktu pada bubble chat (contoh: 10:45)"
+          },
+          {
+            "name": "statusBarTime",
+            "required": true,
+            "description": "Status bar (contoh: 4G 85%)"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+  "name": "Emoji Mix",
+  "endpoint": "/api/maker/emojimix",
+  "filename": "emojimix",
+  "method": "GET",
+  "params": [
+    {
+      "name": "text",
+      "required": true,
+      "description": "Gabungan dua emoji dengan format emoji1+emoji2"
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"}
+      ]
+      },
+      {
+  "name": "iPhone Quote",
+  "endpoint": "/api/maker/iqc",
+  "filename": "iqc",
+  "method": "GET",
+  "params": [
+    {
+      "name": "text",
+      "required": true,
+      "description": "Teks yang ingin dijadikan iPhone quote"
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"}
+      ]
+      },
+      {
+        "name": "IQC 2",
+        "endpoint": "/api/maker/iqc2",
+        "filename": "iqc2",
+        "method": "GET",
+        "description": "Membuat gambar chat WhatsApp (IQC) dengan posisi teks kiri atau kanan.",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Teks chat (maksimal 50 karakter)"
+          },
+          {
+            "name": "posisi",
+            "required": false,
+            "description": "Posisi bubble chat: kiri atau kanan (default: kiri)"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "BratAnime AI Image",
+        "endpoint": "/api/maker/bratanime",
+        "filename": "bratanime",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Fake ML Lobby",
+        "endpoint": "/api/maker/fakeml",
+        "filename": "fakeml",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Nickname / teks yang ditampilkan di lobby ML"
+          },
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar avatar (foto profil)"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "FakeCall",
+        "endpoint": "/api/maker/fakecall",
+        "filename": "fakecall",
+        "method": "GET",
+        "params": [
+          {
+            "name": "nama",
+            "required": true,
+            "description": "Nama target yang akan ditampilkan di Fake Call"
+          },
+          {
+            "name": "waktu",
+            "required": true,
+            "description": "Waktu panggilan yang akan ditampilkan"
+          },
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar target untuk avatar (harus URL, misal Catbox atau link langsung gambar)"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Fake Developer",
+        "endpoint": "/api/maker/fakedev",
+        "filename": "fakedev",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Nama developer yang ingin ditampilkan"
+          },
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar avatar yang akan digunakan"
+          },
+          {
+            "name": "verified",
+            "required": false,
+            "description": "Apakah developer terverifikasi, true atau false"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Sticker Roast Maker",
+        "description": "Membuat gambar roasting dengan 3 bagian teks menggunakan custom font Arial Bold.",
+        "endpoint": "/api/maker/sroast",
+        "filename": "sroast",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Format: teks1 | teks2 | teks3"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Profile FF",
+        "endpoint": "/api/maker/profileff",
+        "filename": "profileff",
+        "method": "GET",
+        "params": [
+          {
+            "name": "nickname",
+            "required": true,
+            "description": "Nama karakter Free Fire"
+          },
+          {
+            "name": "guild",
+            "required": false,
+            "description": "Nama guild / klan (opsional)"
+          },
+          {
+            "name": "bg",
+            "required": false,
+            "description": "Nomor background 1–11 atau 'rand'"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Fake WhatsApp Profile",
+        "endpoint": "/api/maker/fakewa",
+        "filename": "fakewa",
+        "method": "GET",
+        "params": [
+          {
+            "name": "nama",
+            "required": true,
+            "description": "Nama user WhatsApp"
+          },
+          {
+            "name": "nomor",
+            "required": true,
+            "description": "Nomor WhatsApp"
+          },
+          {
+            "name": "status",
+            "required": false,
+            "description": "Status WhatsApp (default: Busy)"
+          },
+          {
+            "name": "image",
+            "required": false,
+            "description": "URL gambar avatar"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Fake Instagram Story",
+        "endpoint": "/api/maker/fakeigstory",
+        "filename": "fakeigstory",
+        "method": "GET",
+        "params": [
+          {
+            "name": "nama",
+            "required": true,
+            "description": "Nama yang akan ditampilkan di story"
+          },
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar yang dijadikan story"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "FakeCall2",
+        "endpoint": "/api/maker/fakecall2",
+        "filename": "fakecall2",
+        "method": "GET",
+        "params": [
+          {
+            "name": "nama",
+            "required": true,
+            "description": "Nama target yang akan ditampilkan di Fake Call"
+          },
+          {
+            "name": "waktu",
+            "required": true,
+            "description": "Waktu panggilan yang akan ditampilkan"
+          },
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar target untuk avatar (harus URL, misal Catbox atau link langsung gambar)"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "MPLS",
+        "endpoint": "/api/maker/mpls",
+        "filename": "mpls",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "FakeNotifDANA",
+        "endpoint": "/api/maker/fakenotifdana",
+        "filename": "fakenotifdana",
+        "method": "GET",
+        "params": [
+          {
+            "name": "nama",
+            "required": true,
+            "description": "Nama penerima"
+          },
+          {
+            "name": "jumlah",
+            "required": true,
+            "description": "Jumlah uang (angka)"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "BratAnime2",
+        "endpoint": "/api/maker/bratanime2",
+        "filename": "bratanime2",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "JMK48",
+        "endpoint": "/api/maker/jmk48",
+        "filename": "jmk48",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "AfinitasML2",
+        "endpoint": "/api/maker/afinitasml2",
+        "filename": "afinitasml2",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Fake TikTok",
+        "endpoint": "/api/maker/faketiktok",
+        "filename": "faketiktok",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar avatar / foto profil"
+          },
+          {
+            "name": "nama",
+            "required": true,
+            "description": "Nama TikTok"
+          },
+          {
+            "name": "username",
+            "required": true,
+            "description": "Username TikTok"
+          },
+          {
+            "name": "verified",
+            "required": true,
+            "description": "Verified (true/false)"
+          },
+          {
+            "name": "mengikuti",
+            "required": true,
+            "description": "Jumlah mengikuti"
+          },
+          {
+            "name": "pengikut",
+            "required": true,
+            "description": "Jumlah pengikut"
+          },
+          {
+            "name": "suka",
+            "required": true,
+            "description": "Jumlah suka"
+          },
+          {
+            "name": "bio",
+            "required": true,
+            "description": "Bio TikTok"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Wife Check",
+        "endpoint": "/api/maker/wifecheck",
+        "filename": "wifecheck",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar untuk dicek"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "IMG2IOS",
+        "endpoint": "/api/maker/img2ios",
+        "filename": "img2ios",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "CProfile",
+        "endpoint": "/api/maker/cprofile",
+        "filename": "cprofile",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url1",
+            "required": true,
+            "description": "URL gambar pertama (background/kotak)"
+          },
+          {
+            "name": "url2",
+            "required": true,
+            "description": "URL gambar kedua (avatar/bulat)"
+          },
+          {
+            "name": "nama",
+            "required": false,
+            "description": "Teks nama yang muncul di gambar"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      { 
+           "name": "Fake Free Fire Max",
+        "endpoint": "/api/maker/fakeff",
+        "filename": "fakeff",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Nickname / nama yang ditampilkan"
+          },
+          {
+            "name": "bg",
+            "required": false,
+            "description": "Nomor background (1 - 30). Jika kosong akan random"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+        },
+        {   
+             "name": "Fake Free Fire Max New Lobby",
+        "endpoint": "/api/maker/fakeff2",
+        "filename": "fakeff2",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Nickname / nama yang ditampilkan"
+          },
+          {
+            "name": "bg",
+            "required": false,
+            "description": "Nomor background (1 - 60). Jika kosong akan random"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+        },
+        {               
+        "name": "Fake Free Fire Duo",
+        "endpoint": "/api/maker/fakeffduo",
+        "filename": "fakeffduo",
+        "method": "GET",
+        "params": [
+          {
+            "name": "name1",
+            "required": true,
+            "description": "Nama player pertama"
+          },
+          {
+            "name": "name2",
+            "required": true,
+            "description": "Nama player kedua"
+          },
+          {
+            "name": "bg",
+            "required": false,
+            "description": "Nomor background (1-30) atau 'random'"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+  "name": "Hp Jadul Nokia",
+  "endpoint": "/api/maker/nokia",
+  "filename": "nokia",
+  "method": "GET",
+  "params": [
+    {
+      "name": "nama",
+      "required": true,
+      "description": "Nama yang ingin ditampilkan"
+    },
+    {
+      "name": "text",
+      "required": true,
+      "description": "Teks yang ingin ditampilkan"
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"}
+      ]
+      },
+      {
+  "name": "Ephoto Styles",
+  "endpoint": "/api/maker/ephoto3",
+  "filename": "ephoto3",
+  "method": "GET",
+  "params": [
+    {
+      "name": "q",
+      "required": true,
+      "description": "Teks / nickname yang ingin ditampilkan pada gambar"
+    },
+    {
+      "name": "style",
+      "required": true,
+      "description": "Pilih style: ephoto3, ephoto4, ephoto5, ephoto6"
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"}
+      ]
+      },
+      {
+  "name": "Flaming Styles",
+  "endpoint": "/api/maker/flaming",
+  "filename": "flaming",
+  "method": "GET",
+  "params": [
+    {
+      "name": "q",
+      "required": true,
+      "description": "Teks yang ingin ditampilkan. Format: nama|warna"
+    },
+    {
+      "name": "style",
+      "required": true,
+      "description": "Pilih style: flaming1, flaming2, flaming3, flaming4, flaming5, flaming6"
+    },
+    {
+      "name": "apikey",
+      "required": true,
+      "description": "API Key untuk autentikasi"}
+      ]
+      },
+      {
+        "name": "QC Image",
+        "endpoint": "/api/maker/qcimg",
+        "filename": "qcimg",
+        "method": "GET",
+        "params": [
+          {
+            "name": "textTop",
+            "required": true,
+            "description": "Teks utama / kata-kata"
+          },
+          {
+            "name": "textBottom",
+            "required": false,
+            "description": "Nama"
+          },
+          {
+            "name": "textThird",
+            "required": false,
+            "description": "@username / copyright"
+          },
+          {
+            "name": "bg",
+            "required": false,
+            "description": "Background 1-5, default acak"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Nulis",
+        "endpoint": "/api/maker/nulis",
+        "filename": "nulis",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Pak Ustad",
+        "endpoint": "/api/maker/pakustad",
+        "filename": "pakustad",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Fake ML Lobby 2",
+        "endpoint": "/api/maker/fakeml2",
+        "filename": "fakeml2",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Nickname / teks yang ditampilkan di lobby ML"
+          },
+          {
+            "name": "image",
+            "required": true,
+            "description": "https://c.termai.cc/i195/qFAl.png Contoh"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Quotes Viral Tiktok",
+        "endpoint": "/api/maker/kt",
+        "filename": "kt",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar avatar (foto profil)"
+          },
+          {
+            "name": "text",
+            "required": true,
+            "description": "Format: NamaPinggir|Kata Kata"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Affinitas ML",
+        "endpoint": "/api/maker/affinitasml",
+        "filename": "afinitasml",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true,
+            "description": "URL gambar avatar (foto profil)"
+          },
+          {
+            "name": "bg",
+            "required": false,
+            "description": "Nomor background (1-n) atau rand"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"                               
+          }
+        ]
+      }
+    ],
+    "game": [
+      {
+        "name": "Tebak Bendera",
+        "endpoint": "/api/game/tebakbendera",
+        "filename": "tebakbendera",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tebak Gambar",
+        "endpoint": "/api/game/tebakgambar",
+        "filename": "tebakgambar",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Game Tebak Tebakan",
+        "endpoint": "/api/game/tebaktebakan",
+        "filename": "tebaktebakan",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tebak Logo",
+        "endpoint": "/api/game/tebaklogo",
+        "filename": "tebaklogo",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tebak Siapa",
+        "endpoint": "/api/game/tebaksiapa",
+        "filename": "tebaksiapa",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tebak Warna",
+        "endpoint": "/api/game/tebakwarna",
+        "filename": "tebakwarna",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Teka Teki",
+        "endpoint": "/api/game/tekateki",
+        "filename": "tekateki",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tebak Game",
+        "endpoint": "/api/game/tebakgame",
+        "filename": "tebakgame",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tebak Jkt48",
+        "endpoint": "/api/game/tebakjkt48",
+        "filename": "tebakjkt48",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tebak Lirik",
+        "endpoint": "/api/game/tebaklirik",
+        "filename": "tebaklirik",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tebak Lagu",
+        "endpoint": "/api/game/tebaklagu",
+        "filename": "tebaklagu",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tebak Kimia",
+        "endpoint": "/api/game/tebakkimia",
+        "filename": "tebakkimia",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tebak Kata",
+        "endpoint": "/api/game/tebakkata",
+        "filename": "tebakkata",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Lengkap Kalimat",
+        "endpoint": "/api/game/lengkapikalimat",
+        "filename": "lengkapikalimat",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Susun Kata",
+        "endpoint": "/api/game/susunkata",
+        "filename": "susunkata",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Asahotak",
+        "endpoint": "/api/game/asahotak",
+        "filename": "asahotak",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Caklontong",
+        "endpoint": "/api/game/caklontong",
+        "filename": "caklontong",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Family100",
+        "endpoint": "/api/game/family100",
+        "filename": "family100",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      }
+    ],
+    "nsfw": [
+      {
+        "name": "NSFW Neko",
+        "endpoint": "/api/nsfw/neko",
+        "filename": "neko",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "NSFW Blowjob",
+        "endpoint": "/api/nsfw/blowjob",
+        "filename": "blowjob",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "NSFW Trap",
+        "endpoint": "/api/nsfw/trap",
+        "filename": "trap",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "NSFW Waifu",
+        "endpoint": "/api/nsfw/waifu",
+        "filename": "waifu",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Ass",
+        "endpoint": "/api/nsfw/ass",
+        "filename": "ass",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Bdsm",
+        "endpoint": "/api/nsfw/bdsm",
+        "filename": "bdsm",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cum",
+        "endpoint": "/api/nsfw/cum",
+        "filename": "cum",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Gangbang",
+        "endpoint": "/api/nsfw/gangbang",
+        "filename": "gangbang",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Hentai",
+        "endpoint": "/api/nsfw/hentai",
+        "filename": "hentai",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Kasedaiki",
+        "endpoint": "/api/nsfw/kasedaiki",
+        "filename": "kasedaiki",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Manstrubation",
+        "endpoint": "/api/nsfw/manstrubation",
+        "filename": "manstrubation",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Opaianime",
+        "endpoint": "/api/nsfw/opaianime",
+        "filename": "opaianime",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      }
+    ],
+    "anime": [
+      {
+        "name": "Awoo",
+        "endpoint": "/api/anime/awoo",
+        "filename": "awoo",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      { 
+        "name": "Anime Info",
+        "endpoint": "/api/anime/animeinfo",
+        "filename": "animeinfo",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true,
+            "description": "Judul anime yang ingin dicari"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Anime search",
+        "endpoint": "/api/anime/animesearch",
+        "filename": "animesearch",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true,
+            "description": "Judul anime yang ingin dicari"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Anime Random",
+        "endpoint": "/api/anime/animerandom",
+        "filename": "animerandom",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Anime Story WA",
+        "endpoint": "/api/anime/animestorywa",
+        "filename": "animestorywa",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Rize",
+        "endpoint": "/api/anime/rize",
+        "filename": "rize",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Rem",
+        "endpoint": "/api/anime/rem",
+        "filename": "rem",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "OnePiece",
+        "endpoint": "/api/anime/onepiece",
+        "filename": "onepiece",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Nishimiya",
+        "endpoint": "/api/anime/nishimiya",
+        "filename": "nishimiya",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Nezuko",
+        "endpoint": "/api/anime/nezuko",
+        "filename": "nezuko",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "NekoAnime",
+        "endpoint": "/api/anime/nekoanime",
+        "filename": "nekoanime",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Natsukawa",
+        "endpoint": "/api/anime/natsukawa",
+        "filename": "natsukawa",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Naruto",
+        "endpoint": "/api/anime/naruto",
+        "filename": "naruto",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Minato",
+        "endpoint": "/api/anime/minato",
+        "filename": "minato",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Megumin",
+        "endpoint": "/api/anime/megumin",
+        "filename": "megumin",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Miku",
+        "endpoint": "/api/anime/miku",
+        "filename": "miku",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Mikasa",
+        "endpoint": "/api/anime/mikasa",
+        "filename": "mikasa",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Madara",
+        "endpoint": "/api/anime/madara",
+        "filename": "madara",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Loli",
+        "endpoint": "/api/anime/loli",
+        "filename": "loli",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Kurumi",
+        "endpoint": "/api/anime/kurumi",
+        "filename": "kurumi",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Kuroha",
+        "endpoint": "/api/anime/kuroha",
+        "filename": "kuroha",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Kuriyama",
+        "endpoint": "/api/anime/kuriyama",
+        "filename": "kuriyama",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Kutori",
+        "endpoint": "/api/anime/kutori",
+        "filename": "kutori",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {       
+        "name": "Kagura",
+        "endpoint": "/api/anime/kagura",
+        "filename": "kagura",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Kaga",
+        "endpoint": "/api/anime/kaga",
+        "filename": "kaga",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Itori",
+        "endpoint": "/api/anime/itori",
+        "filename": "itori",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Itachi",
+        "endpoint": "/api/anime/itachi",
+        "filename": "itachi",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Isuzu",
+        "endpoint": "/api/anime/isuzu",
+        "filename": "isuzu",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Inori",
+        "endpoint": "/api/anime/inori",
+        "filename": "inori",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Hinata",
+        "endpoint": "/api/anime/hinata",
+        "filename": "hinata",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Hitorigottoh",
+        "endpoint": "/api/anime/hitorigottoh",
+        "filename": "hitorigottoh",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Hestia",
+        "endpoint": "/api/anime/hestia",
+        "filename": "hestia",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Gremory",
+        "endpoint": "/api/anime/gremory",
+        "filename": "gremory",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Erza",
+        "endpoint": "/api/anime/erza",
+        "filename": "erza",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Deidara",
+        "endpoint": "/api/anime/deidara",
+        "filename": "deidara",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Chitoge",
+        "endpoint": "/api/anime/chitoge",
+        "filename": "chitoge",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Chitanda",
+        "endpoint": "/api/anime/chitanda",
+        "filename": "chitanda",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Yatogami",
+        "endpoint": "/api/anime/yatogami",
+        "filename": "yatogami",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Waifu2",
+        "endpoint": "/api/anime/waifu2",
+        "filename": "waifu2",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Toukachan",
+        "endpoint": "/api/anime/toukachan",
+        "filename": "toukachan",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tomori",
+        "endpoint": "/api/anime/tomori",
+        "filename": "tomori",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Shizuka",
+        "endpoint": "/api/anime/shizuka",
+        "filename": "shizuka",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Shinka",
+        "endpoint": "/api/anime/shinka",
+        "filename": "shinka",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Shina",
+        "endpoint": "/api/anime/shina",
+        "filename": "shina",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Sasuke",
+        "endpoint": "/api/anime/sasuke",
+        "filename": "sasuke",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Sakura",
+        "endpoint": "/api/anime/sakura",
+        "filename": "sakura",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tsunade",
+        "endpoint": "/api/anime/tsunade",
+        "filename": "tsunade",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Yuri",
+        "endpoint": "/api/anime/yuri",
+        "filename": "yuri",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Shinobu",
+        "endpoint": "/api/anime/shinobu",
+        "filename": "shinobu",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Handhold",
+        "endpoint": "/api/anime/handhold",
+        "filename": "handhold",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Highfive",
+        "endpoint": "/api/anime/highfive",
+        "filename": "highfive",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cringe",
+        "endpoint": "/api/anime/cringe",
+        "filename": "cringe",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Dance",
+        "endpoint": "/api/anime/dance",
+        "filename": "dance",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Happy",
+        "endpoint": "/api/anime/happy",
+        "filename": "happy",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Glomp",
+        "endpoint": "/api/anime/glomp",
+        "filename": "glomp",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Smug",
+        "endpoint": "/api/anime/smug",
+        "filename": "smug",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Blush",
+        "endpoint": "/api/anime/blush",
+        "filename": "blush",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Wave",
+        "endpoint": "/api/anime/wave",
+        "filename": "wave",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Smile",
+        "endpoint": "/api/anime/smile",
+        "filename": "smile",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Poke",
+        "endpoint": "/api/anime/poke",
+        "filename": "poke",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Wink",
+        "endpoint": "/api/anime/wink",
+        "filename": "wink",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Bonk",
+        "endpoint": "/api/anime/bonk",
+        "filename": "bonk",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Bully",
+        "endpoint": "/api/anime/bully",
+        "filename": "bully",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Yeet",
+        "endpoint": "/api/anime/yeet",
+        "filename": "yeet",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Bite",
+        "endpoint": "/api/anime/bite",
+        "filename": "bite",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Lick",
+        "endpoint": "/api/anime/lick",
+        "filename": "lick",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cry",
+        "endpoint": "/api/anime/cry",
+        "filename": "cry",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Wallpaper",
+        "endpoint": "/api/anime/wallpaper",
+        "filename": "wallpaper",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Kiss",
+        "endpoint": "/api/anime/kiss",
+        "filename": "kiss",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Hug",
+        "endpoint": "/api/anime/hug",
+        "filename": "hug",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Neko",
+        "endpoint": "/api/anime/neko",
+        "filename": "neko",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Pat",
+        "endpoint": "/api/anime/pat",
+        "filename": "pat",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Slap",
+        "endpoint": "/api/anime/slap",
+        "filename": "slap",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cuddle",
+        "endpoint": "/api/anime/cuddle",
+        "filename": "cuddle",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Fox Girl",
+        "endpoint": "/api/anime/fox_girl",
+        "filename": "fox_girl",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tickle",
+        "endpoint": "/api/anime/tickle",
+        "filename": "tickle",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Gecg",
+        "endpoint": "/api/anime/gecg",
+        "filename": "gecg",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Feed",
+        "endpoint": "/api/anime/feed",
+        "filename": "feed",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Avatar",
+        "endpoint": "/api/anime/avatar",
+        "filename": "avatar",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"    
+          }
+        ]
+      }
+    ],
+    "random": [
+      {
+        "name": "Boruto",
+        "endpoint": "/api/random/boruto",
+        "filename": "boruto",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Emilia",
+        "endpoint": "/api/random/emilia",
+        "filename": "emilia",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Elaina",
+        "endpoint": "/api/random/elaina",
+        "filename": "elaina",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "AyuZawa",
+        "endpoint": "/api/random/ayuzawa",
+        "filename": "ayuzawa",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Asunna",
+        "endpoint": "/api/random/asuna",
+        "filename": "asuna",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Anna",
+        "endpoint": "/api/random/anna",
+        "filename": "anna",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cecan Korea",
+        "endpoint": "/api/random/cecankorea",
+        "filename": "cecankorea",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cecan Indonesia",
+        "endpoint": "/api/random/cecanindonesia",
+        "filename": "cecanindo",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cecan China",
+        "endpoint": "/api/random/cecanchina",
+        "filename": "cecanchina",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cecan Thailand",
+        "endpoint": "/api/random/cecanthailand",
+        "filename": "cecanthailand",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cecan Vietnam",
+        "endpoint": "/api/random/cecanvietnam",
+        "filename": "cecanvietnam",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Waifu",
+        "endpoint": "/api/random/waifu",
+        "filename": "waifu",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Aesthetic",
+        "endpoint": "/api/random/aesthetic",
+        "filename": "aesthetic",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Blackpink",
+        "endpoint": "/api/random/blackpink",
+        "filename": "blackpink",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Boneka",
+        "endpoint": "/api/random/boneka",
+        "filename": "boneka",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Car",
+        "endpoint": "/api/random/car",
+        "filename": "car",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Cat",
+        "endpoint": "/api/random/cat",
+        "filename": "cat",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Cosplay",
+        "endpoint": "/api/random/cosplay",
+        "filename": "cosplay",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Doggo",
+        "endpoint": "/api/random/doggo",
+        "filename": "doggo",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Justina",
+        "endpoint": "/api/random/justina",
+        "filename": "justina",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Kayes",
+        "endpoint": "/api/random/kayes",
+        "filename": "kayes",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Kpop",
+        "endpoint": "/api/random/kpop",
+        "filename": "kpop",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random NotNot",
+        "endpoint": "/api/random/notnot",
+        "filename": "notnot",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Profile",
+        "endpoint": "/api/random/profile",
+        "filename": "profile",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Rose",
+        "endpoint": "/api/random/rose",
+        "filename": "rose",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Ryujin",
+        "endpoint": "/api/random/ryujin",
+        "filename": "ryujin",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Ulzzang Girl",
+        "endpoint": "/api/random/ulzzanggirl",
+        "filename": "ulzzanggirl",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Blue Archive",
+        "endpoint": "/api/random/bluearchive",
+        "filename": "bluearchive",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random TikTok",
+        "endpoint": "/api/random/tiktok",
+        "filename": "tiktok",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Nekopoi Latest",
+        "endpoint": "/api/random/nekopoi",
+        "filename": "nekopoi",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Loli",
+        "endpoint": "/api/random/loli",
+        "filename": "loli",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Neko",
+        "endpoint": "/api/random/neko",
+        "filename": "neko",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Shota",
+        "endpoint": "/api/random/shota",
+        "filename": "shota",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random PCP",
+        "endpoint": "/api/random/ppcp",
+        "filename": "ppcp",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Akiyama",
+        "endpoint": "/api/random/akiyama",
+        "filename": "akiyama",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Bike",
+        "endpoint": "/api/random/bike",
+        "filename": "bike",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cecanjepang",
+        "endpoint": "/api/random/cecanjepang",
+        "filename": "cecanjepang",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cewebohay",
+        "endpoint": "/api/random/cewebohay",
+        "filename": "cewebohay",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Gabut1",
+        "endpoint": "/api/random/gabut1",
+        "filename": "gabut1",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Gabut2",
+        "endpoint": "/api/random/gabut2",
+        "filename": "gabut2",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"        
+          }
+        ]
+      }
+    ],
+    "tools": [
+      {
+        "name": "Screenshot Web",
+        "endpoint": "/api/tools/ssweb",
+        "filename": "ssweb",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Website URL"
+          },
+          {
+            "name": "type",
+            "required": false,
+            "description": "mobile | desktop"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {       
+        "name": "Short URL",
+        "endpoint": "/api/tools/shorturl",
+        "filename": "shorturl",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Original URL"
+          },
+          {
+            "name": "alias",
+            "required": false,
+            "description": "Custom Alias"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Web2Zip Downloader",
+        "endpoint": "/api/tools/web2zip",
+        "description": "Mengkloning seluruh aset sebuah website dan mengonversinya menjadi file ZIP yang siap diunduh.",
+        "filename": "web2zip",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "URL website target yang ingin dikloning (contoh: google.com)."
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {       
+        "name": "GitHub Gist Reader",
+        "endpoint": "/api/tools/gits",
+        "filename": "gits",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "GitHub Gist URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Remove Background",
+        "endpoint": "/api/tools/removebg",
+        "filename": "removebg",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Image URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "To Studio Ghibli",
+        "endpoint": "/api/tools/toghibli",
+        "filename": "fluxTools",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "To Black Skin",
+        "endpoint": "/api/tools/toblack",
+        "filename": "fluxTools",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "To Blue Skin",
+        "endpoint": "/api/tools/toblue",
+        "filename": "fluxTools",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "To White Skin",
+        "endpoint": "/api/tools/towhite",
+        "filename": "fluxTools",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "To Yellow Skin",
+        "endpoint": "/api/tools/toyellow",
+        "filename": "hm",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "To Red Skin",
+        "endpoint": "/api/tools/tored",
+        "filename": "hm",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "To Green Skin",
+        "endpoint": "/api/tools/togreen",
+        "filename": "hm",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "To Pink Skin",
+        "endpoint": "/api/tools/topink",
+        "filename": "hm",
+        "method": "GET",
+        "params": [
+          {
+            "name": "image",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Hairstyle AI",
+        "endpoint": "/api/tools/hairstyle",
+        "filename": "hairstyle",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "URL gambar yang ingin diubah rambutnya"
+          },
+          {
+            "name": "prompt",
+            "required": true,
+            "description": "Deskripsi gaya rambut, contoh: 'blue ponytail"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Img2sketch",
+        "endpoint": "/api/tools/img2sketch",
+        "filename": "img2sketch",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Image URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Wasted",
+        "endpoint": "/api/tools/wasted",
+        "filename": "wasted",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Image URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Pastebin",
+        "endpoint": "/api/tools/pastebin",
+        "filename": "pastebin",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Text to upload to Pastebin"
+          },
+          {
+            "name": "name",
+            "required": false,
+            "description": "Paste author name"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "QR Code Generator",
+        "endpoint": "/api/tools/qrcode",
+        "filename": "qrcode",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Text content for QR Code"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Image HD Enhancer",
+        "endpoint": "/api/tools/hd",
+        "filename": "hd",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Direct image URL"
+          },
+          {
+            "name": "method",
+            "required": false,
+            "description": "Enhance method (1-4), default 3"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Upload Videy",
+        "endpoint": "/api/tools/upvidey",
+        "filename": "upvidey",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Direct video URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Mediafire",
+        "endpoint": "/api/tools/mediafire",
+        "filename": "mediafire",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      }
+    ],
+    "download": [
+      {
+        "name": "Facebook Downloader",
+        "endpoint": "/api/download/facebook",
+        "filename": "facebook",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Facebook URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {    
+        "name": "Instagram Downloader",
+        "endpoint": "/api/download/instagram",
+        "filename": "instagram",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Instagram URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {   
+        "name": "CapCut Video Downloader",
+        "endpoint": "/api/download/capcut",
+        "filename": "capcut",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Link video CapCut yang ingin di-download"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {   
+        "name": "TikTok Downloader",
+        "endpoint": "/api/download/tiktok",
+        "filename": "tiktok",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "TikTok URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Spotify Downloader",
+        "endpoint": "/api/download/spotify",
+        "filename": "spotify",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Spotify track URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Lahelu Downloader",
+        "endpoint": "/api/download/lahelu",
+        "filename": "lahelu",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Lahelu post URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "GitHub Clone Downloader",
+        "endpoint": "/api/download/gitclone",
+        "filename": "gitclone",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "GitHub repository URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Douyin Downloader",
+        "endpoint": "/api/download/douyin",
+        "filename": "douyin",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Douyin video URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "XNXX Downloader (URL Only)",
+        "description": "Mengambil URL video XNXX dari link yang diberikan. Hanya mengembalikan link download utama, metadata lainnya disembunyikan.",
+        "endpoint": "/api/downloader/xnxx",
+        "filename": "xnxx",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "URL video XNXX yang ingin diambil. Contoh: https://www.xnxx.com/video-1e6n1t09/pov_doggy_style"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "SFile Direct Downloader",
+        "description": "Mengambil metadata file dan direct download URL dari link sfile.co.",
+        "endpoint": "/api/download/sfile",
+        "filename": "sfile",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Link SFile (contoh: https://sfile.co/xxxx)."
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "MF Downloader",
+        "endpoint": "/api/download/mfdl",
+        "filename": "mfdl",
+        "method": "GET",
+        "params": [
+          {
+            "name": "mfUrl",
+            "required": true,
+            "description": "URL of the MF page to fetch the download link from"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Videy Downloader",
+        "endpoint": "/api/download/videydl",
+        "filename": "videydl",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Videy video URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "AIO Downloader (Downr)",
+        "endpoint": "/api/download/aio",
+        "filename": "aio",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Supported social media URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Google Drive",
+        "endpoint": "/api/download/gdrive",
+        "filename": "gdrive",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Link Google Drive"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "SnackVideo",
+        "endpoint": "/api/download/snackvideo",
+        "filename": "snackvideo",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Link SnackVideo"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Pinterest Downloader",
+        "endpoint": "/api/download/pindl",
+        "filename": "pindl",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Link Pinterest (gambar atau video)"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Terabox Downloader",
+        "endpoint": "/api/download/terabox",
+        "filename": "terabox",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Link share Terabox"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Twitter Downloader",
+        "endpoint": "/api/download/twitter",
+        "filename": "twitterdl",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "Link Twitter"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      }
+    ],
+    "canvas": [
+      {
+        "name": "Level Up Canvas",
+        "endpoint": "/api/canvas/level-up",
+        "filename": "levelup",
+        "method": "GET",
+        "params": [
+          {
+            "name": "backgroundURL",
+            "required": true
+          },
+          {
+            "name": "avatarURL",
+            "required": true
+          },
+          {
+            "name": "fromLevel",
+            "required": true
+          },
+          {
+            "name": "toLevel",
+            "required": true
+          },
+          {
+            "name": "name",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Tweet Maker",
+        "endpoint": "/api/maker/lugox",
+        "filename": "lugox",
+        "method": "GET",
+        "description": "Membuat gambar simulasi tweet Twitter (X) dengan kustomisasi nama, username, komentar, dan foto profil menggunakan library Canvafy.",
+        "params": [
+          {
+            "name": "name",
+            "required": true,
+            "description": "Nama tampilan (Display Name) di tweet."
+          },
+          {
+            "name": "username",
+            "required": true,
+            "description": "Username (tanpa @) yang akan ditampilkan."
+          },
+          {
+            "name": "comment",
+            "required": true,
+            "description": "Isi tweet atau komentar."
+          },
+          {
+            "name": "avatar",
+            "required": false,
+            "description": "URL foto profil pengguna (Opsional)."
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Goodbye V1 Canvas",
+        "endpoint": "/api/canvas/goodbyev1",
+        "filename": "goodbyev1",
+        "method": "GET",
+        "params": [
+          {
+            "name": "username",
+            "required": true
+          },
+          {
+            "name": "guildName",
+            "required": true
+          },
+          {
+            "name": "guildIcon",
+            "required": true
+          },
+          {
+            "name": "memberCount",
+            "required": true
+          },
+          {
+            "name": "avatar",
+            "required": true
+          },
+          {
+            "name": "background",
+            "required": true
+          },
+          {
+            "name": "quality",
+            "required": false
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Goodbye V2 Canvas",
+        "endpoint": "/api/canvas/goodbyev2",
+        "filename": "goodbyev2",
+        "method": "GET",
+        "description": "Menghasilkan banner perpisahan (Goodbye) versi 2 dengan desain artistik. Fitur utama mencakup avatar yang diputar (rotated), teks kustom untuk nama grup, username, dan urutan member dalam format PNG.",
+        "params": [
+          {
+            "name": "username",
+            "required": true,
+            "description": "Nama pengguna yang keluar dari grup."
+          },
+          {
+            "name": "guildName",
+            "required": true,
+            "description": "Nama grup atau server."
+          },
+          {
+            "name": "memberCount",
+            "required": true,
+            "description": "Angka urutan member (misal: 150)."
+          },
+          {
+            "name": "avatar",
+            "required": true,
+            "description": "URL foto profil pengguna (Direct Link)."
+          },
+          {
+            "name": "background",
+            "required": true,
+            "description": "URL gambar latar belakang banner."
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Goodbye V3 Canvas",
+        "endpoint": "/api/canvas/goodbyev3",
+        "filename": "goodbyev3",
+        "method": "GET",
+        "description": "Menghasilkan banner perpisahan (Goodbye) versi 3 dengan desain minimalis berukuran 650x300. Menampilkan foto profil dalam bingkai lingkaran di tengah dan nama pengguna di bawahnya.",
+        "params": [
+          {
+            "name": "username",
+            "required": true,
+            "description": "Nama pengguna yang akan ditampilkan pada gambar."
+          },
+          {
+            "name": "avatar",
+            "required": true,
+            "description": "URL foto profil pengguna (Direct Link)."
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Goodbye V4 Canvafy",
+        "endpoint": "/api/canvas/goodbyev4",
+        "filename": "goodbyev4",
+        "method": "GET",
+        "description": "Menghasilkan banner perpisahan profesional menggunakan library Canvafy. Mendukung latar belakang kustom, foto profil, dan teks deskripsi dengan efek overlay gelap serta border modern.",
+        "params": [
+          {
+            "name": "avatar",
+            "required": true,
+            "description": "URL foto profil user (Direct Link)."
+          },
+          {
+            "name": "background",
+            "required": true,
+            "description": "URL gambar latar belakang banner."
+          },
+          {
+            "name": "description",
+            "required": true,
+            "description": "Teks pesan perpisahan yang akan ditampilkan."
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Gay Card Canvas",
+        "endpoint": "/api/canvas/gay",
+        "filename": "gay",
+        "method": "GET",
+        "params": [
+          {
+            "name": "name",
+            "required": true
+          },
+          {
+            "name": "avatar",
+            "required": true
+          },
+          {
+            "name": "num",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Fake-xnxx",
+        "endpoint": "/api/canvas/fake-xnxx",
+        "filename": "fake-xnxx",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Gen-xnxx",
+        "endpoint": "/api/canvas/gen-xnxx",
+        "filename": "gen-xnxx",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Goodbyev5",
+        "endpoint": "/api/canvas/goodbyev5",
+        "filename": "goodbyev5",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Profile",
+        "endpoint": "/api/canvas/profile",
+        "filename": "profile",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Ship",
+        "endpoint": "/api/canvas/ship",
+        "filename": "ship",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Welcomev1",
+        "endpoint": "/api/canvas/welcomev1",
+        "filename": "welcomev1",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Welcomev2",
+        "endpoint": "/api/canvas/welcomev2",
+        "filename": "welcomev2",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Welcomev3",
+        "endpoint": "/api/canvas/welcomev3",
+        "filename": "welcomev3",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Welcomev4",
+        "endpoint": "/api/canvas/welcomev4",
+        "filename": "welcomev4",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Welcomev5",
+        "endpoint": "/api/canvas/welcomev5",
+        "filename": "welcomev5",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      }
+    ],
+    "asupan": [
+      {
+        "name": "Random NotNot",
+        "endpoint": "/api/asupan/notnot",
+        "filename": "notnot",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Panrika",
+        "endpoint": "/api/asupan/panrika",
+        "filename": "panrika",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Santuy",
+        "endpoint": "/api/asupan/santuy",
+        "filename": "santuy",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Gheayubi",
+        "endpoint": "/api/asupan/gheayubi",
+        "filename": "gheayubi",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Bocil",
+        "endpoint": "/api/asupan/bocil",
+        "filename": "bocil",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random TiktokGirl",
+        "endpoint": "/api/asupan/tiktokgirl",
+        "filename": "tiktokgirl",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Ukhty",
+        "endpoint": "/api/asupan/ukhty",
+        "filename": "ukhty",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Random Kayes",
+        "endpoint": "/api/asupan/kayes",
+        "filename": "kayes",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Bohaysma",
+        "endpoint": "/api/asupan/bohaysma",
+        "filename": "bohaysma",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cewebohay",
+        "endpoint": "/api/asupan/cewebohay",
+        "filename": "cewebohay",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cewesmabohay1",
+        "endpoint": "/api/asupan/cewesmabohay1",
+        "filename": "cewesmabohay1",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Onlyfans",
+        "endpoint": "/api/asupan/onlyfans",
+        "filename": "onlyfans",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      }
+    ],
+    "search": [
+      {
+        "name": "Youtube Search",
+        "endpoint": "/api/search/yts",
+        "filename": "yts",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true,
+            "description": "Query"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      { 
+        "name": "TikTok Search",
+        "endpoint": "/api/search/tiktok",
+        "filename": "tiktok",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true,
+            "description": "Query"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Douyin Search",
+        "endpoint": "/api/search/douyinsearch",
+        "filename": "douyinsearch",
+        "method": "GET",
+        "description": "Mencari video di platform Douyin (TikTok China) berdasarkan kata kunci. Mengembalikan informasi lengkap mengenai video (aweme_info).",
+        "params": [
+          {
+            "name": "q",
+            "required": true,
+            "description": "Kata kunci pencarian."
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Cuaca",
+        "description": "Mendapatkan data perkiraan cuaca untuk suatu lokasi.",
+        "endpoint": "/api/search/cuaca",
+        "filename": "cuaca",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Nama lokasi, misal Jakarta"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Lyric Search",
+        "endpoint": "/api/search/lyric",
+        "filename": "lyric",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Pinterest Search",
+        "description": "Mencari gambar di Pinterest berdasarkan query.",
+        "endpoint": "/api/search/pinterest",
+        "filename": "pinterest",
+        "method": "GET",
+        "params": [
+          {
+            "name": "q",
+            "required": true,
+            "description": "Query pencarian"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      { 
+        "name": "Play Search (Audio Only)",
+        "description": "Mencari YouTube berdasarkan query, mengambil hasil teratas, lalu mengembalikan link download AUDIO (MP3) saja. Parameter hanya 'query'. Nilai 'quality' pada hasil di-random.",
+        "endpoint": "/api/search/play",
+        "filename": "play",
+        "method": "GET",
+        "params": [
+          {
+            "name": "query",
+            "required": true,
+            "description": "Kata kunci pencarian YouTube (contoh: night changes)."
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "Roblox Top Playing",
+        "endpoint": "/api/search/robloxtop",
+        "filename": "robloxtop",
+        "method": "GET",
+        "params": [
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "GitHub Search",
+        "endpoint": "/api/search/githubsearch",
+        "filename": "githubsearch",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Query pencarian repository GitHub"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {
+        "name": "F-Droid Search",
+        "endpoint": "/api/search/fdroid",
+        "filename": "fdroid",
+        "method": "GET",
+        "params": [
+          {
+            "name": "text",
+            "required": true,
+            "description": "Query untuk pencarian aplikasi F-Droid atau URL detail"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"        
+          }
+        ]
+      }
+    ]
+  }
+}
