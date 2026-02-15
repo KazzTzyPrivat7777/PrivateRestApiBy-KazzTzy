@@ -1,0 +1,706 @@
+[
+  {
+    "soal": "https://flagcdn.com/w320/aw.png",
+    "jawaban": "Aruba"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/af.png",
+    "jawaban": "Afghanistan"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ao.png",
+    "jawaban": "Angola"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ai.png",
+    "jawaban": "Anguilla"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ax.png",
+    "jawaban": "Åland Islands"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/al.png",
+    "jawaban": "Albania"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ad.png",
+    "jawaban": "Andorra"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ae.png",
+    "jawaban": "United Arab Emirates"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ar.png",
+    "jawaban": "Argentina"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/am.png",
+    "jawaban": "Armenia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/aq.png",
+    "jawaban": "Antarctica"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/tf.png",
+    "jawaban": "French Southern Territories"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ag.png",
+    "jawaban": "Antigua and Barbuda"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/au.png",
+    "jawaban": "Australia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/at.png",
+    "jawaban": "Austria"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/az.png",
+    "jawaban": "Azerbaijan"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bi.png",
+    "jawaban": "Burundi"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/be.png",
+    "jawaban": "Belgium"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bj.png",
+    "jawaban": "Benin"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bq.png",
+    "jawaban": "Bonaire, Sint Eustatius and Saba"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bf.png",
+    "jawaban": "Burkina Faso"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bd.png",
+    "jawaban": "Bangladesh"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bg.png",
+    "jawaban": "Bulgaria"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bh.png",
+    "jawaban": "Bahrain"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bs.png",
+    "jawaban": "Bahamas"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ba.png",
+    "jawaban": "Bosnia and Herzegovina"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bl.png",
+    "jawaban": "Saint Barthélemy"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/by.png",
+    "jawaban": "Belarus"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bz.png",
+    "jawaban": "Belize"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bm.png",
+    "jawaban": "Bermuda"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bo.png",
+    "jawaban": "Bolivia, Plurinational State of"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/br.png",
+    "jawaban": "Brazil"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bb.png",
+    "jawaban": "Barbados"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bn.png",
+    "jawaban": "Brunei Darussalam"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bt.png",
+    "jawaban": "Bhutan"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bv.png",
+    "jawaban": "Bouvet Island"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/bw.png",
+    "jawaban": "Botswana"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cf.png",
+    "jawaban": "Central African Republic"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ca.png",
+    "jawaban": "Canada"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cc.png",
+    "jawaban": "Cocos (Keeling) Islands"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ch.png",
+    "jawaban": "Switzerland"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cl.png",
+    "jawaban": "Chile"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cn.png",
+    "jawaban": "China"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ci.png",
+    "jawaban": "Côte d'Ivoire"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cm.png",
+    "jawaban": "Cameroon"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cd.png",
+    "jawaban": "Congo, The Democratic Republic of the"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cg.png",
+    "jawaban": "Congo"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ck.png",
+    "jawaban": "Cook Islands"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/co.png",
+    "jawaban": "Colombia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/km.png",
+    "jawaban": "Comoros"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cv.png",
+    "jawaban": "Cabo Verde"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cr.png",
+    "jawaban": "Costa Rica"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cu.png",
+    "jawaban": "Cuba"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cw.png",
+    "jawaban": "Curaçao"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cx.png",
+    "jawaban": "Christmas Island"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ky.png",
+    "jawaban": "Cayman Islands"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cy.png",
+    "jawaban": "Cyprus"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/cz.png",
+    "jawaban": "Czechia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/de.png",
+    "jawaban": "Germany"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/dj.png",
+    "jawaban": "Djibouti"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/dm.png",
+    "jawaban": "Dominica"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/dk.png",
+    "jawaban": "Denmark"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/do.png",
+    "jawaban": "Dominican Republic"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/dz.png",
+    "jawaban": "Algeria"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ec.png",
+    "jawaban": "Ecuador"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/eg.png",
+    "jawaban": "Egypt"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/er.png",
+    "jawaban": "Eritrea"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/eh.png",
+    "jawaban": "Western Sahara"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/es.png",
+    "jawaban": "Spain"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ee.png",
+    "jawaban": "Estonia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/et.png",
+    "jawaban": "Ethiopia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/fi.png",
+    "jawaban": "Finland"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/fj.png",
+    "jawaban": "Fiji"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/fk.png",
+    "jawaban": "Falkland Islands (Malvinas)"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/fr.png",
+    "jawaban": "France"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/fo.png",
+    "jawaban": "Faroe Islands"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/fm.png",
+    "jawaban": "Micronesia, Federated States of"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ga.png",
+    "jawaban": "Gabon"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gb.png",
+    "jawaban": "United Kingdom"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ge.png",
+    "jawaban": "Georgia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gg.png",
+    "jawaban": "Guernsey"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gh.png",
+    "jawaban": "Ghana"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gi.png",
+    "jawaban": "Gibraltar"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gn.png",
+    "jawaban": "Guinea"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gp.png",
+    "jawaban": "Guadeloupe"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gm.png",
+    "jawaban": "Gambia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gw.png",
+    "jawaban": "Guinea-Bissau"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gq.png",
+    "jawaban": "Equatorial Guinea"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gr.png",
+    "jawaban": "Greece"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gd.png",
+    "jawaban": "Grenada"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gl.png",
+    "jawaban": "Greenland"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gt.png",
+    "jawaban": "Guatemala"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gf.png",
+    "jawaban": "French Guiana"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gu.png",
+    "jawaban": "Guam"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/gy.png",
+    "jawaban": "Guyana"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/hk.png",
+    "jawaban": "Hong Kong"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/hm.png",
+    "jawaban": "Heard Island and McDonald Islands"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/hn.png",
+    "jawaban": "Honduras"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/hr.png",
+    "jawaban": "Croatia"
+  },
+  { 
+    "soal": "https://flagcdn.com/w320/ht.png",
+    "jawaban": "Haiti"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/hu.png",
+    "jawaban": "Hungary"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/id.png",
+    "jawaban": "Indonesia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/im.png",
+    "jawaban": "Isle of Man"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/in.png",
+    "jawaban": "India"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/io.png",
+    "jawaban": "British Indian Ocean Territory"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ie.png",
+    "jawaban": "Ireland"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ir.png",
+    "jawaban": "Iran, Islamic Republic of"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/iq.png",
+    "jawaban": "Iraq"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/is.png",
+    "jawaban": "Iceland"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/il.png",
+    "jawaban": "Israel"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/it.png",
+    "jawaban": "Italy"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/jm.png",
+    "jawaban": "Jamaica"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/je.png",
+    "jawaban": "Jersey"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/jo.png",
+    "jawaban": "Jordan"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/jp.png",
+    "jawaban": "Japan"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/kz.png",
+    "jawaban": "Kazakhstan"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ke.png",
+    "jawaban": "Kenya"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/kg.png",
+    "jawaban": "Kyrgyzstan"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/kh.png",
+    "jawaban": "Cambodia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ki.png",
+    "jawaban": "Kiribati"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/kn.png",
+    "jawaban": "Saint Kitts and Nevis"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/kr.png",
+    "jawaban": "Korea"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/kw.png",
+    "jawaban": "Kuwait"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/la.png",
+    "jawaban": "Lao People's Democratic Republic"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/lb.png",
+    "jawaban": "Lebanon"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/lr.png",
+    "jawaban": "Liberia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ly.png",
+    "jawaban": "Libya"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/lc.png",
+    "jawaban": "Saint Lucia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/li.png",
+    "jawaban": "Liechtenstein"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/lk.png",
+    "jawaban": "Sri Lanka"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ls.png",
+    "jawaban": "Lesotho"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/lt.png",
+    "jawaban": "Lithuania"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/lu.png",
+    "jawaban": "Luxembourg"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/lv.png",
+    "jawaban": "Latvia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mo.png",
+    "jawaban": "Macao"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mf.png",
+    "jawaban": "Saint Martin (French part)"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ma.png",
+    "jawaban": "Morocco"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mc.png",
+    "jawaban": "Monaco"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/md.png",
+    "jawaban": "Moldova, Republic of"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mg.png",
+    "jawaban": "Madagascar"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mv.png",
+    "jawaban": "Maldives"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mx.png",
+    "jawaban": "Mexico"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mh.png",
+    "jawaban": "Marshall Islands"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mk.png",
+    "jawaban": "North Macedonia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/ml.png",
+    "jawaban": "Mali"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mt.png",
+    "jawaban": "Malta"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mm.png",
+    "jawaban": "Myanmar"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/me.png",
+    "jawaban": "Montenegro"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mn.png",
+    "jawaban": "Mongolia"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mp.png",
+    "jawaban": "Northern Mariana Islands"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mz.png",
+    "jawaban": "Mozambique"
+  },
+  {
+    "soal": "https://flagcdn.com/w320/mr.png", 
+    "jawaban": "Mauritania" 
+  },
+  { 
+    "soal": "https://flagcdn.com/w320/ms.png", 
+    "jawaban": "Montserrat"
+  },
+  {  
+    "soal": "https://flagcdn.com/w320/mu.png", 
+    "jawaban": "Mauritius" },
+  { "soal": "https://flagcdn.com/w320/mw.png", "jawaban": "Malawi" },
+  { "soal": "https://flagcdn.com/w320/my.png", "jawaban": "Malaysia" },
+
+  { "soal": "https://flagcdn.com/w320/na.png", "jawaban": "Namibia" },
+  { "soal": "https://flagcdn.com/w320/ne.png", "jawaban": "Niger" },
+  { "soal": "https://flagcdn.com/w320/nf.png", "jawaban": "Norfolk Island" },
+  { "soal": "https://flagcdn.com/w320/ng.png", "jawaban": "Nigeria" },
+  { "soal": "https://flagcdn.com/w320/ni.png", "jawaban": "Nicaragua" },
+  { "soal": "https://flagcdn.com/w320/nu.png", "jawaban": "Niue" },
+  { "soal": "https://flagcdn.com/w320/nl.png", "jawaban": "Netherlands" },
+  { "soal": "https://flagcdn.com/w320/no.png", "jawaban": "Norway" },
+  { "soal": "https://flagcdn.com/w320/np.png", "jawaban": "Nepal" },
+  { "soal": "https://flagcdn.com/w320/nr.png", "jawaban": "Nauru" },
+  { "soal": "https://flagcdn.com/w320/nz.png", "jawaban": "New Zealand" },
+
+  { "soal": "https://flagcdn.com/w320/om.png", "jawaban": "Oman" },
+  { "soal": "https://flagcdn.com/w320/pk.png", "jawaban": "Pakistan" },
+  { "soal": "https://flagcdn.com/w320/pa.png", "jawaban": "Panama" },
+  { "soal": "https://flagcdn.com/w320/pn.png", "jawaban": "Pitcairn" },
+  { "soal": "https://flagcdn.com/w320/pe.png", "jawaban": "Peru" },
+  { "soal": "https://flagcdn.com/w320/ph.png", "jawaban": "Philippines" },
+  { "soal": "https://flagcdn.com/w320/pw.png", "jawaban": "Palau" },
+  { "soal": "https://flagcdn.com/w320/pg.png", "jawaban": "Papua New Guinea" },
+  { "soal": "https://flagcdn.com/w320/pl.png", "jawaban": "Poland" },
+  { "soal": "https://flagcdn.com/w320/pr.png", "jawaban": "Puerto Rico" },
+  { "soal": "https://flagcdn.com/w320/kp.png", "jawaban": "Korea, Democratic People's Republic of" },
+  { "soal": "https://flagcdn.com/w320/pt.png", "jawaban": "Portugal" },
+  { "soal": "https://flagcdn.com/w320/py.png", "jawaban": "Paraguay" },
+  { "soal": "https://flagcdn.com/w320/ps.png", "jawaban": "Palestine, State of" },
+  { "soal": "https://flagcdn.com/w320/pf.png", "jawaban": "French Polynesia" },
+
+  { "soal": "https://flagcdn.com/w320/qa.png", "jawaban": "Qatar" },
+  { "soal": "https://flagcdn.com/w320/re.png", "jawaban": "Réunion" },
+  { "soal": "https://flagcdn.com/w320/ro.png", "jawaban": "Romania" },
+  { "soal": "https://flagcdn.com/w320/ru.png", "jawaban": "Russian Federation" },
+  { "soal": "https://flagcdn.com/w320/rw.png", "jawaban": "Rwanda" },
+
+  { "soal": "https://flagcdn.com/w320/sa.png", "jawaban": "Saudi Arabia" },
+  { "soal": "https://flagcdn.com/w320/sd.png", "jawaban": "Sudan" },
+  { "soal": "https://flagcdn.com/w320/sn.png", "jawaban": "Senegal" },
+  { "soal": "https://flagcdn.com/w320/sg.png", "jawaban": "Singapore" },
+  { "soal": "https://flagcdn.com/w320/gs.png", "jawaban": "South Georgia and the South Sandwich Islands" },
+  { "soal": "https://flagcdn.com/w320/sh.png", "jawaban": "Saint Helena, Ascension and Tristan da Cunha" },
+  { "soal": "https://flagcdn.com/w320/sj.png", "jawaban": "Svalbard and Jan Mayen" },
+  { "soal": "https://flagcdn.com/w320/sb.png", "jawaban": "Solomon Islands" },
+  { "soal": "https://flagcdn.com/w320/sl.png", "jawaban": "Sierra Leone" },
+  { "soal": "https://flagcdn.com/w320/sv.png", "jawaban": "El Salvador" },
+  { "soal": "https://flagcdn.com/w320/sm.png", "jawaban": "San Marino" },
+  { "soal": "https://flagcdn.com/w320/so.png", "jawaban": "Somalia" },
+  { "soal": "https://flagcdn.com/w320/pm.png", "jawaban": "Saint Pierre and Miquelon" },
+  { "soal": "https://flagcdn.com/w320/rs.png", "jawaban": "Serbia" },
+  { "soal": "https://flagcdn.com/w320/ss.png", "jawaban": "South Sudan" },
+  { "soal": "https://flagcdn.com/w320/st.png", "jawaban": "Sao Tome and Principe" },
+  { "soal": "https://flagcdn.com/w320/sr.png", "jawaban": "Suriname" },
+  { "soal": "https://flagcdn.com/w320/sk.png", "jawaban": "Slovakia" },
+  { "soal": "https://flagcdn.com/w320/si.png", "jawaban": "Slovenia" },
+  { "soal": "https://flagcdn.com/w320/se.png", "jawaban": "Sweden" },
+  { "soal": "https://flagcdn.com/w320/sz.png", "jawaban": "Eswatini" },
+  { "soal": "https://flagcdn.com/w320/sx.png", "jawaban": "Sint Maarten (Dutch part)" },
+  { "soal": "https://flagcdn.com/w320/sc.png", "jawaban": "Seychelles" },
+  { "soal": "https://flagcdn.com/w320/sy.png", "jawaban": "Syrian Arab Republic" },
+
+  { "soal": "https://flagcdn.com/w320/tc.png", "jawaban": "Turks and Caicos Islands" },
+  { "soal": "https://flagcdn.com/w320/td.png", "jawaban": "Chad" },
+  { "soal": "https://flagcdn.com/w320/tg.png", "jawaban": "Togo" },
+  { "soal": "https://flagcdn.com/w320/th.png", "jawaban": "Thailand" },
+  { "soal": "https://flagcdn.com/w320/tj.png", "jawaban": "Tajikistan" },
+  { "soal": "https://flagcdn.com/w320/tk.png", "jawaban": "Tokelau" },
+  { "soal": "https://flagcdn.com/w320/tm.png", "jawaban": "Turkmenistan" },
+  { "soal": "https://flagcdn.com/w320/tl.png", "jawaban": "Timor-Leste" },
+  { "soal": "https://flagcdn.com/w320/to.png", "jawaban": "Tonga" },
+  { "soal": "https://flagcdn.com/w320/tt.png", "jawaban": "Trinidad and Tobago" },
+  { "soal": "https://flagcdn.com/w320/tn.png", "jawaban": "Tunisia" },
+  { "soal": "https://flagcdn.com/w320/tr.png", "jawaban": "Turkey" },
+  { "soal": "https://flagcdn.com/w320/tv.png", "jawaban": "Tuvalu" },
+  { "soal": "https://flagcdn.com/w320/tw.png", "jawaban": "Taiwan, Province of China" },
+  { "soal": "https://flagcdn.com/w320/tz.png", "jawaban": "Tanzania, United Republic of" },
+
+  { "soal": "https://flagcdn.com/w320/ug.png", "jawaban": "Uganda" },
+  { "soal": "https://flagcdn.com/w320/ua.png", "jawaban": "Ukraine" },
+  { "soal": "https://flagcdn.com/w320/um.png", "jawaban": "United States Minor Outlying Islands" },
+  { "soal": "https://flagcdn.com/w320/uy.png", "jawaban": "Uruguay" },
+  { "soal": "https://flagcdn.com/w320/us.png", "jawaban": "United States" },
+  { "soal": "https://flagcdn.com/w320/uz.png", "jawaban": "Uzbekistan" },
+
+  { "soal": "https://flagcdn.com/w320/va.png", "jawaban": "Holy See (Vatican City State)" },
+  { "soal": "https://flagcdn.com/w320/vc.png", "jawaban": "Saint Vincent and the Grenadines" },
+  { "soal": "https://flagcdn.com/w320/ve.png", "jawaban": "Venezuela, Bolivarian Republic of"
+}
+]
