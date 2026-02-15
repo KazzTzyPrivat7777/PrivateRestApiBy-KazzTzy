@@ -1,0 +1,638 @@
+[
+  {
+    "soal": "R-A-M-U-H",
+    "jawaban": "RUMAH"
+  },
+  {
+    "soal": "A-T-K-O",
+    "jawaban": "KOTA"
+  },
+  {
+    "soal": "A-L-J-N-A",
+    "jawaban": "JALAN"
+  },
+  {
+    "soal": "E-H-O-L-S-A-K",
+    "jawaban": "SEKOLAH"
+  },
+  {
+    "soal": "E-N-J-P-A-G",
+    "jawaban": "JEPANG"
+  },
+  {
+    "soal": "O-N-S-E-N-A-D-I-I",
+    "jawaban": "INDONESIA"
+  },
+  {
+    "soal": "A-R-S-P-A",
+    "jawaban": "PASAR"
+  },
+  {
+    "soal": "T-O-O-R-M",
+    "jawaban": "MOTOR"
+  },
+  {
+    "soal": "E-M-A-J",
+    "jawaban": "MEJA"
+  },
+  {
+    "soal": "U-I-R-S-K",
+    "jawaban": "KURSI"
+  },
+  {
+    "soal": "U-N-P-T-I",
+    "jawaban": "PINTU"
+  },
+  {
+    "soal": "J-E-A-N-E-L-D",
+    "jawaban": "JENDELA"
+  },
+  {
+    "soal": "K-B-U-U",
+    "jawaban": "BUKU"
+  },
+  {
+    "soal": "S-L-I-N-E-P",
+    "jawaban": "PENSIL"
+  },
+  {
+    "soal": "P-E-T-R-U-O-M-K",
+    "jawaban": "KOMPUTER"
+  },
+  {
+    "soal": "H-N-D-P-N-A-E-O-H",
+    "jawaban": "HANDPHONE"
+  },
+  {
+    "soal": "D-A-R-I-O",
+    "jawaban": "RADIO"
+  },
+  {
+    "soal": "S-E-T-I-L-I-E-V",
+    "jawaban": "TELEVISI"
+  },
+  {
+    "soal": "M-A-E-A-R-K",
+    "jawaban": "KAMERA"
+  },
+  {
+    "soal": "M-K-U-S-I",
+    "jawaban": "MUSIK"
+  },
+  {
+    "soal": "G-L-U-A",
+    "jawaban": "LAGU"
+  },
+  {
+    "soal": "W-S-I-A-S",
+    "jawaban": "SISWA"
+  },
+  {
+    "soal": "R-U-G-U",
+    "jawaban": "GURU"
+  },
+  {
+    "soal": "I-P-A-E-N-T",
+    "jawaban": "PETANI"
+  },
+  {
+    "soal": "O-T-K-R-D-E",
+    "jawaban": "DOKTER"
+  },
+  {
+    "soal": "A-R-E-A-W-T-P",
+    "jawaban": "PERAWAT"
+  },
+  {
+    "soal": "T-T-A-E-N-A-R",
+    "jawaban": "TENTARA"
+  },
+  {
+    "soal": "S-L-P-I-O-I",
+    "jawaban": "POLISI"
+  },
+  {
+    "soal": "O-I-T-L-P",
+    "jawaban": "PILOT"
+  },
+  {
+    "soal": "A-A-K-P-L",
+    "jawaban": "KAPAL"
+  },
+  {
+    "soal": "L-U-T-A",
+    "jawaban": "LAUT"
+  },
+  {
+    "soal": "I-A-A-N-T-P",
+    "jawaban": "PANTAI"
+  },
+  {
+    "soal": "N-G-G-U-N-U",
+    "jawaban": "GUNUNG"
+  },
+  {
+    "soal": "S-G-I-N-A-U",
+    "jawaban": "SUNGAI"
+  },
+  {
+    "soal": "U-N-A-D-A",
+    "jawaban": "DANAU"
+  },
+  {
+    "soal": "T-H-U-N-A",
+    "jawaban": "HUTAN"
+  },
+  {
+    "soal": "B-U-N-E-K",
+    "jawaban": "KEBUN"
+  },
+  {
+    "soal": "N-A-B-G-U",
+    "jawaban": "BUNGA"
+  },
+  {
+    "soal": "D-A-U-N",
+    "jawaban": "DAUN"
+  },
+  {
+    "soal": "A-K-R-A",
+    "jawaban": "AKAR"
+  },
+  {
+    "soal": "H-B-U-A",
+    "jawaban": "BUAH"
+  },
+  {
+    "soal": "E-P-L-A",
+    "jawaban": "APEL"
+  },
+  {
+    "soal": "A-S-N-I-G-P",
+    "jawaban": "PISANG"
+  },
+  {
+    "soal": "J-K-U-R-E",
+    "jawaban": "JERUK"
+  },
+  {
+    "soal": "G-A-M-G-A-N",
+    "jawaban": "MANGGA"
+  },
+  {
+    "soal": "N-N-S-A-A",
+    "jawaban": "NANAS"
+  },
+  {
+    "soal": "G-U-N-A-R-G",
+    "jawaban": "ANGGUR"
+  },
+  {
+    "soal": "E-O-M-L-N",
+    "jawaban": "MELON"
+  },
+  {
+    "soal": "K-N-M-E-G-S-A-A",
+    "jawaban": "SEMANGKA"
+  },
+  {
+    "soal": "N-U-I-R-D-A",
+    "jawaban": "DURIAN"
+  },
+  {
+    "soal": "N-K-I-A",
+    "jawaban": "IKAN"
+  },
+  {
+    "soal": "A-Y-M-A",
+    "jawaban": "AYAM"
+  },
+  {
+    "soal": "N-I-C-G-K-U",
+    "jawaban": "KUCING"
+  },
+  {
+    "soal": "N-I-N-J-A-G",
+    "jawaban": "ANJING"
+  },
+  {
+    "soal": "U-U-G-N-R-B",
+    "jawaban": "BURUNG"
+  },
+  {
+    "soal": "K-U-D-A",
+    "jawaban": "KUDA"
+  },
+  {
+    "soal": "P-S-A-I",
+    "jawaban": "SAPI"
+  },
+  {
+    "soal": "A-N-K-G-M-B-I",
+    "jawaban": "KAMBING"
+  },
+  {
+    "soal": "R-A-U-L",
+    "jawaban": "ULAR"
+  },
+  {
+    "soal": "A-A-J-H-G",
+    "jawaban": "GAJAH"
+  },
+  {
+    "soal": "U-I-R-M-A-A-H",
+    "jawaban": "HARIMAU"
+  },
+  {
+    "soal": "N-S-A-I-G",
+    "jawaban": "SINGA"
+  },
+  {
+    "soal": "Y-O-T-N-M-E",
+    "jawaban": "MONYET"
+  },
+  {
+    "soal": "A-I-S-N",
+    "jawaban": "NASI"
+  },
+  {
+    "soal": "R-O-T-I",
+    "jawaban": "ROTI"
+  },
+  {
+    "soal": "G-U-L-A",
+    "jawaban": "GULA"
+  },
+  {
+    "soal": "R-M-A-A-G",
+    "jawaban": "GARAM"
+  },
+  {
+    "soal": "A-R-I",
+    "jawaban": "AIR"
+  },
+  {
+    "soal": "I-P-K-O",
+    "jawaban": "KOPI"
+  },
+  {
+    "soal": "T-E-H",
+    "jawaban": "TEH"
+  },
+  {
+    "soal": "U-S-U-S",
+    "jawaban": "SUSU"
+  },
+  {
+    "soal": "J-S-U",
+    "jawaban": "JUS"
+  },
+  {
+    "soal": "S-Y-A-R-U",
+    "jawaban": "SAYUR"
+  },
+  {
+    "soal": "M-B-Y-A-A",
+    "jawaban": "BAYAM"
+  },
+  {
+    "soal": "U-N-G-K-G-A-N-K",
+    "jawaban": "KANGKUNG"
+  },
+  {
+    "soal": "L-W-T-E-O-R",
+    "jawaban": "WORTEL"
+  },
+  {
+    "soal": "T-N-G-E-A-N-K",
+    "jawaban": "KENTANG"
+  },
+  {
+    "soal": "O-M-A-T-T",
+    "jawaban": "TOMAT"
+  },
+  {
+    "soal": "B-I-C-A-A",
+    "jawaban": "CABAI"
+  },
+  {
+    "soal": "A-N-G-W-A-B",
+    "jawaban": "BAWANG"
+  },
+  {
+    "soal": "T-U-L-R-E",
+    "jawaban": "TELUR"
+  },
+  {
+    "soal": "A-N-G-I-G-D",
+    "jawaban": "DAGING"
+  },
+  {
+    "soal": "U-E-J-K",
+    "jawaban": "KEJU"
+  },
+  {
+    "soal": "T-G-E-A-M-E-N",
+    "jawaban": "MENTEGA"
+  },
+  {
+    "soal": "N-M-I-A-Y-K",
+    "jawaban": "MINYAK"
+  },
+  {
+    "soal": "K-E-U",
+    "jawaban": "KUE"
+  },
+  {
+    "soal": "P-R-E-E-M-N",
+    "jawaban": "PERMEN"
+  },
+  {
+    "soal": "K-E-T-L-A-O-C",
+    "jawaban": "COKELAT"
+  },
+  {
+    "soal": "K-S-A-O-B",
+    "jawaban": "BAKSO"
+  },
+  {
+    "soal": "A-E-S-T",
+    "jawaban": "SATE"
+  },
+  {
+    "soal": "O-T-O-S",
+    "jawaban": "SOTO"
+  },
+  {
+    "soal": "A-E-D-N-R-G-N",
+    "jawaban": "RENDANG"
+  },
+  {
+    "soal": "A-H-U-T",
+    "jawaban": "TAHU"
+  },
+  {
+    "soal": "E-M-E-P-T",
+    "jawaban": "TEMPE"
+  },
+  {
+    "soal": "K-U-R-U-E-K-P",
+    "jawaban": "KERUPUK"
+  },
+  {
+    "soal": "B-A-A-W-K-N",
+    "jawaban": "BAKWAN"
+  },
+  {
+    "soal": "K-T-B-A-A-M-A-R",
+    "jawaban": "MARTABAK"
+  },
+  {
+    "soal": "P-Z-A-I-Z",
+    "jawaban": "PIZZA"
+  },
+  {
+    "soal": "B-U-E-G-R-R",
+    "jawaban": "BURGER"
+  },
+  {
+    "soal": "A-I-S-P-T-H-G-T-E",
+    "jawaban": "SPAGHETTI"
+  },
+  {
+    "soal": "D-N-E-O",
+    "jawaban": "ONDE"
+  },
+  {
+    "soal": "O-L-N-K-P-E",
+    "jawaban": "KLEPON"
+  },
+  {
+    "soal": "N-D-T-O-A",
+    "jawaban": "DONAT"
+  },
+  {
+    "soal": "B-U-O-L",
+    "jawaban": "BOLU"
+  },
+  {
+    "soal": "N-U-P-D-I-G",
+    "jawaban": "PUDING"
+  },
+  {
+    "soal": "R-A-A-G",
+    "jawaban": "AGAR"
+  },
+  {
+    "soal": "L-E-L-E",
+    "jawaban": "LELE"
+  },
+  {
+    "soal": "G-D-A-U-N",
+    "jawaban": "UDANG"
+  },
+  {
+    "soal": "I-M-C-U",
+    "jawaban": "CUMI"
+  },
+  {
+    "soal": "O-S-P",
+    "jawaban": "SOP"
+  },
+  {
+    "soal": "N-A-W-O-R",
+    "jawaban": "RAWON"
+  },
+  {
+    "soal": "P-O-O-R",
+    "jawaban": "OPOR"
+  },
+  {
+    "soal": "E-G-D-G-U",
+    "jawaban": "GUDEG"
+  },
+  {
+    "soal": "G-A-P-A-N-D",
+    "jawaban": "PADANG"
+  },
+  {
+    "soal": "U-D-U-K",
+    "jawaban": "UDUK"
+  },
+  {
+    "soal": "I-E-T-L-W",
+    "jawaban": "LIWET"
+  },
+  {
+    "soal": "N-U-N-K-G-I",
+    "jawaban": "KUNING"
+  },
+  {
+    "soal": "O-L-M-B-I",
+    "jawaban": "MOBIL"
+  },
+  {
+    "soal": "U-T-R-K",
+    "jawaban": "TRUK"
+  },
+  {
+    "soal": "S-B-U",
+    "jawaban": "BUS"
+  },
+  {
+    "soal": "E-E-K-R-T-A",
+    "jawaban": "KERETA"
+  },
+  {
+    "soal": "P-W-S-T-E-A-A",
+    "jawaban": "PESAWAT"
+  },
+  {
+    "soal": "E-E-L-H-K-T-R-P-I-O",
+    "jawaban": "HELIKOPTER"
+  },
+  {
+    "soal": "T-R-E-O-K",
+    "jawaban": "ROKET"
+  },
+  {
+    "soal": "S-E-D-E-A-P",
+    "jawaban": "SEPEDA"
+  },
+  {
+    "soal": "L-N-J-A-A",
+    "jawaban": "JALAN"
+  },
+  {
+    "soal": "A-M-T-A-N-J-E-B",
+    "jawaban": "JEMBATAN"
+  },
+  {
+    "soal": "A-D-A-B-R-N-A",
+    "jawaban": "BANDARA"
+  },
+  {
+    "soal": "T-N-R-L-E-A-I-M",
+    "jawaban": "TERMINAL"
+  },
+  {
+    "soal": "B-N-H-A-A-P-U-L-E",
+    "jawaban": "PELABUHAN"
+  },
+  {
+    "soal": "N-T-M-A-A",
+    "jawaban": "TAMAN"
+  },
+  {
+    "soal": "S-R-I-P-A",
+    "jawaban": "PASIR"
+  },
+  {
+    "soal": "K-M-A-O-B",
+    "jawaban": "OMBAK"
+  },
+  {
+    "soal": "A-W-N-A",
+    "jawaban": "AWAN"
+  },
+  {
+    "soal": "I-G-T-A-L-N",
+    "jawaban": "LANGIT"
+  },
+  {
+    "soal": "H-N-U-A-J",
+    "jawaban": "HUJAN"
+  },
+  {
+    "soal": "R-I-E-P-T",
+    "jawaban": "PETIR"
+  },
+  {
+    "soal": "N-T-B-G-N-A-I",
+    "jawaban": "BINTANG"
+  },
+  {
+    "soal": "R-H-A-M-A-T-A-I",
+    "jawaban": "MATAHARI"
+  },
+  {
+    "soal": "A-L-B-N-U",
+    "jawaban": "BULAN"
+  },
+  {
+    "soal": "T-N-L-P-A-E",
+    "jawaban": "PLANET"
+  },
+  {
+    "soal": "L-K-A-G-A-I-S",
+    "jawaban": "GALAKSI"
+  },
+  {
+    "soal": "G-N-K-S-A-A-A",
+    "jawaban": "ANGKASA"
+  },
+  {
+    "soal": "G-K-N-O-A-T",
+    "jawaban": "ANGKOT"
+  },
+  {
+    "soal": "E-U-P-A-R-H",
+    "jawaban": "PERAHU"
+  },
+  {
+    "soal": "O-P-T-I",
+    "jawaban": "TOPI"
+  },
+  {
+    "soal": "B-U-J-A",
+    "jawaban": "BAJU"
+  },
+  {
+    "soal": "E-N-A-L-A-C",
+    "jawaban": "CELANA"
+  },
+  {
+    "soal": "K-J-E-T-A",
+    "jawaban": "JAKET"
+  },
+  {
+    "soal": "S-T-P-U-E-A",
+    "jawaban": "SEPATU"
+  },
+  {
+    "soal": "S-D-A-N-L-E",
+    "jawaban": "SENDAL"
+  },
+  {
+    "soal": "O-A-S-K",
+    "jawaban": "KAOS"
+  },
+  {
+    "soal": "I-A-T-K",
+    "jawaban": "IKAT"
+  },
+  {
+    "soal": "M-A-J",
+    "jawaban": "JAM"
+  },
+  {
+    "soal": "C-I-N-N-C-I",
+    "jawaban": "CINCIN"
+  },
+  {
+    "soal": "A-T-S",
+    "jawaban": "TAS"
+  },
+  {
+    "soal": "D-P-M-O-E-T",
+    "jawaban": "DOMPET"
+  },
+  {
+    "soal": "A-B-K-U-S",
+    "jawaban": "SABUK"
+  },
+  {
+    "soal": "M-A-K-T-A-A-A-C",
+    "jawaban": "KACAMATA"
+  }
+]
