@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "name": "Chat GPT",
+      "price": "Rp 50.000/month",
+      "description": "Murah Banget Loh",
+      "image": "https://c.termai.cc/i161/qEYI1.jpeg"
+    },
+    {
+      "name": "Jasa Bikin Website",
+      "price": "Rp 5.000 Aja",
+      "description": "Prses 1 Hari",
+      "image": "https://c.termai.cc/i181/8OCItrb.jpeg"
+    }
+  ]
+}
