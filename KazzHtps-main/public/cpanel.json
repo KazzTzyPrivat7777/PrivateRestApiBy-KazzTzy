@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "name": "Ram 3GB",
+      "price": "3K"
+    },
+    {
+      "name": "Ram 4GB",
+      "price": "4K"
+    },
+    {
+      "name": "Ram 5GB",
+      "price": "5K"
+    },
+    {
+      "name": "Ram 6GB",
+      "price": "6K"
+    },
+    {
+      "name": "Ram 7GB",
+      "price": "7K"
+    },
+    {
+      "name": "Ram 8GB",
+      "price": "8K"
+    },
+    {
+      "name": "Ram 9GB",
+      "price": "9K"
+    },
+    {
+      "name": "Ram 10GB",
+      "price": "10K"
+    }
+  ]
+}
