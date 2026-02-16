@@ -2,7 +2,7 @@
   "keys": [
     {
       "apikey": "FreeLimit",
-      "limit": 700,
+      "limit": 9000,
       "usage": 0,
       "createdAt": "2026-02-11",
       "lastUsed": null
