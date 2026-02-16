@@ -34,23 +34,6 @@
         ]
       },
       { 
-  "name": "Claude Chat",
-  "endpoint": "/api/ai/claude",
-  "filename": "claude",
-  "method": "GET",
-  "params": [
-    {
-      "name": "text",
-      "required": true,
-      "description": "Pertanyaan atau teks yang ingin dikirim ke Claude AI"
-    },
-    {
-      "name": "apikey",
-      "required": true,
-      "description": "API Key untuk autentikasi"}
-      ]
-      },
-      {
     "name": "Dyron AI Chat",
     "endpoint": "/api/ai/dyronai",
     "filename": "dyronai",
@@ -1934,8 +1917,8 @@
           }
         ]
       },
-      { 
-           "name": "Fake Free Fire Max",
+      {
+        "name": "Fake Free Fire Max",
         "endpoint": "/api/maker/fakeff",
         "filename": "fakeff",
         "method": "GET",
@@ -1956,9 +1939,9 @@
             "description": "API Key untuk autentikasi"
           }
         ]
-        },
-        {   
-             "name": "Fake Free Fire Max New Lobby",
+      },
+      {
+             "name": "Fake Ff New Lobby",
         "endpoint": "/api/maker/fakeff2",
         "filename": "fakeff2",
         "method": "GET",
@@ -1971,7 +1954,7 @@
           {
             "name": "bg",
             "required": false,
-            "description": "Nomor background (1 - 60). Jika kosong akan random"
+            "description": "Nomor background (1 - 30). Jika kosong akan random"
           },
           {
             "name": "apikey",
@@ -1979,8 +1962,8 @@
             "description": "API Key untuk autentikasi"
           }
         ]
-        },
-        {               
+      },
+      {
         "name": "Fake Free Fire Duo",
         "endpoint": "/api/maker/fakeffduo",
         "filename": "fakeffduo",
@@ -2007,72 +1990,6 @@
             "description": "API Key untuk autentikasi"
           }
         ]
-      },
-      {
-  "name": "Hp Jadul Nokia",
-  "endpoint": "/api/maker/nokia",
-  "filename": "nokia",
-  "method": "GET",
-  "params": [
-    {
-      "name": "nama",
-      "required": true,
-      "description": "Nama yang ingin ditampilkan"
-    },
-    {
-      "name": "text",
-      "required": true,
-      "description": "Teks yang ingin ditampilkan"
-    },
-    {
-      "name": "apikey",
-      "required": true,
-      "description": "API Key untuk autentikasi"}
-      ]
-      },
-      {
-  "name": "Ephoto Styles",
-  "endpoint": "/api/maker/ephoto3",
-  "filename": "ephoto3",
-  "method": "GET",
-  "params": [
-    {
-      "name": "q",
-      "required": true,
-      "description": "Teks / nickname yang ingin ditampilkan pada gambar"
-    },
-    {
-      "name": "style",
-      "required": true,
-      "description": "Pilih style: ephoto3, ephoto4, ephoto5, ephoto6"
-    },
-    {
-      "name": "apikey",
-      "required": true,
-      "description": "API Key untuk autentikasi"}
-      ]
-      },
-      {
-  "name": "Flaming Styles",
-  "endpoint": "/api/maker/flaming",
-  "filename": "flaming",
-  "method": "GET",
-  "params": [
-    {
-      "name": "q",
-      "required": true,
-      "description": "Teks yang ingin ditampilkan. Format: nama|warna"
-    },
-    {
-      "name": "style",
-      "required": true,
-      "description": "Pilih style: flaming1, flaming2, flaming3, flaming4, flaming5, flaming6"
-    },
-    {
-      "name": "apikey",
-      "required": true,
-      "description": "API Key untuk autentikasi"}
-      ]
       },
       {
         "name": "QC Image",
